@@ -1,12 +1,21 @@
 name: Generate contribution snake
 
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "**.md"
   schedule:
     - cron: "0 2 * * *"
   workflow_dispatch:
 
+# 需在仓库 Settings → Actions → General 中允许 Actions，且默认 GITHUB_TOKEN 可写入内容
 permissions:
   contents: write
+
+concurrency:
+  group: snake-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   generate:
