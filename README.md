@@ -1,5 +1,7 @@
-<!-- mcy233 profile README -->
+<!-- Profile README: top uses PNG (profile page shows PNG reliably; snake uses GIF from snk). Replace assets/profile-banner.png with your own image anytime. -->
 <div align="center">
+
+<img src="https://raw.githubusercontent.com/mcy233/mcy233/main/assets/profile-banner.png" width="100%" alt="AI + Games · Ph.D. banner" />
 
 ### Chuyu Ma · 马楚昱
 
@@ -45,13 +47,21 @@
 ### Contribution snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mcy233/mcy233/main/output/github-contribution-grid-snake.svg" alt="Contribution snake" width="100%" />
+  <a href="https://github.com/mcy233">
+    <img src="https://raw.githubusercontent.com/mcy233/mcy233/main/output/github-contribution-grid-snake.gif" alt="Contribution snake" width="92%" />
+  </a>
 </p>
+
+<p align="center"><sub>
+  <a href="https://raw.githubusercontent.com/mcy233/mcy233/main/output/github-contribution-grid-snake.svg">SVG</a>
+  · same data as your GitHub contribution graph
+</sub></p>
 
 ### Tech stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,cs,javascript,typescript,html,markdown,unity,docker,git,github,linux,vscode,pytorch,latex,matlab" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,cs,javascript,typescript,html,markdown" alt="Languages & markup" /><br/>
+  <img src="https://skillicons.dev/icons?i=unity,docker,git,github,linux,vscode,pytorch,latex,matlab" alt="Tools & engines" />
 </p>
 
 ---
