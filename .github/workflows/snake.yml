@@ -9,7 +9,7 @@ on:
     - cron: "0 2 * * *"
   workflow_dispatch:
 
-# 需在仓库 Settings → Actions → General 中允许 Actions，且默认 GITHUB_TOKEN 可写入内容
+# Allow Actions in repo Settings; GITHUB_TOKEN needs contents: write for commits.
 permissions:
   contents: write
 
